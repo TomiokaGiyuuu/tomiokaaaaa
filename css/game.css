@@ -191,6 +191,12 @@ body{
     width: 45px;
 }
 
+.winner-msg{
+    transition: 1s;
+}
 
+.winner{
+    transform: scale(1.2);
+}
 
 
