@@ -63,6 +63,14 @@ function handleClick(e){
     setHoverEffect();
 }
 
+/*Music*/
+var music = new Audio();
+document.querySelector(".primary-btn").addEventListener("click", function(){
+    music.pause();
+    music = new Audio('sounds/zenitsuVoice.mp3');
+    music.play();
+});
+
 
 
 
