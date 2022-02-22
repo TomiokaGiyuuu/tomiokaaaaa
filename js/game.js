@@ -63,11 +63,22 @@ function handleClick(e){
     setHoverEffect();
 }
 
+
 /*Music*/
 var music = new Audio();
-document.querySelector(".primary-btn").addEventListener("click", function(){
+document.querySelectorAll(".primary-btn")[0].addEventListener("click", function(){
     music.pause();
-    music = new Audio('sounds/zenitsuVoice.mp3');
+    music = new Audio('sounds/gameSound.mp3');
+    music.play();
+});
+document.querySelectorAll(".primary-btn")[1].addEventListener("click", function(){
+    music.pause();
+    music = new Audio('sounds/gameSound.mp3');
+    music.play();
+});
+document.querySelectorAll(".primary-btn")[2].addEventListener("click", function(){
+    music.pause();
+    music = new Audio('sounds/gameSound.mp3');
     music.play();
 });
 
