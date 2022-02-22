@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+
+    
+    <link rel="stylesheet" href="css/game.css">
+    
+    <link rel="shortcut icon" type="image/svg" href="img/logo.svg"/>
+</head>
+<body>
+    <div class="fixed-button">
+        <a href = "index.html"><img src = "img/logo.svg"></a>
+    </div>
+
+    <div class="start-game">
+        <h1 class="text-light">Tanjiro vs Muzan</h1>
+        <div class="profile">
+            <div class="img">
+                <img class="chibi" src="./ticimg/tanjiro.png" class="id" data-id="x" alt="">
+                <img class="chibi" src="./ticimg/muzan.png" class="id" data-id="y" alt="">
+            </div>
+        </div>
+
+        <button class="primary-btn" id="startBtn">Start Game</button>
+    </div>
+
+    
+    <div class="container">
+        <div class="board" id="board">
+            <div class="block" data-cell></div>
+            <div class="block" data-cell></div>
+            <div class="block" data-cell></div>
+            <div class="block" data-cell></div>
+            <div class="block" data-cell></div>
+            <div class="block" data-cell></div>
+            <div class="block" data-cell></div>
+            <div class="block" data-cell></div>
+            <div class="block" data-cell></div>
+        </div>
+    </div>
+
+    
+    <div class="draw-msg">
+        <div class="draw">
+            <h1 class="text-center text-yellow">Draw</h1>
+        </div>
+        <button id="drawBtn" class="primary-btn">Play Again</button>
+    </div>
+
+    
+    <div class="winner-msg">
+        <h1 class="text-center text-yellow">Winner</h1>
+        <div class="winner"></div>
+        <button id="restartBtn" class="primary-btn">Restart</button>
+    </div>
+    <video id="opening" poster="poster.JPG" autoplay muted loop>
+        <source src="./opening/dm.mp4" type="video/mp4">
+    </video>
+    <script type="module" src="js/game.js"></script>
+</body>
+</html>

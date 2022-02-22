@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<head>
+  <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+  <meta charset = "utf - 8">
+  <title>Login / Sign up</title>
+  <link rel="stylesheet" href="css/registration.css">
+  <link rel = "shortcut icon" href = "css/images/logo.svg">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a7193267c8.js" crossorigin="anonymous"></script>
+  
+  <link rel="shortcut icon" type="image/svg" href="img/logo.svg"/>
+</head>
+<body>
+  
+  <div class = "container">
+    <form class = "form form--hidden" id = "login">
+      <h1 class = "formTitle">
+        Login
+        <i class="far fa-user"></i>
+      </h1>
+      
+      <div class = "formMessage formMessageError">
+        <!----Incorrect Username or Password---->
+      </div>
+      <div class = "formInputGroup">
+        <input type = "text" class = "formInput" autofocus placeholder="Username or Email">
+        <div class = "formInputMessageError"></div>
+      </div>
+      <div class = "formInputGroup">
+        <input type = "password" class = "formInput" autofocus placeholder="Password">
+        <div class = "formInputMessageError"></div>
+      </div>
+      <div class="reg-btn">
+        <a class = "fontButton" href = "index.html">Continue</a>
+      </div>
+      <p class = "formText">
+        <a href = "#" class = "formLink">
+          Forgot your password?
+        </a>
+      </p>
+      <p class = "formText">
+        <a class = "formLink" id = "LinkCreateAccount">
+          Don't have account? Create account
+        </a>
+      </p>
+    </form>
+    <form class = "form" id = "createAccount">
+      <h1 class = "formTitle">
+        Create Account
+        <i class="far fa-user"></i>
+      </h1>
+      
+      <div class = "formMessage formMessageError">
+        <!---Incorrect Username or Password--->
+      </div>
+      <div class = "formInputGroup">
+        <input type = "text" class = "formInput" autofocus placeholder="Username">
+        <div class = "formInputMessageError"></div>
+      </div>
+      <div class = "formInputGroup">
+        <input type = "text" class = "formInput" autofocus placeholder="Email Address">
+        <div class = "formInputMessageError"></div>
+      </div>
+      <div class = "formInputGroup">
+        <input type = "password" class = "formInput" autofocus placeholder="Password">
+        <div class = "formInputMessageError"></div>
+      </div>
+      <div class = "formInputGroup">
+        <input type = "password" class = "formInput" autofocus placeholder="Confirm Password">
+        <div class = "formInputMessageError"></div>
+      </div>
+      <div class="reg-btn">
+        <a class = "fontButton" href = "index.html">Continue</a>
+      </div>
+      <p class = "formText"><br>
+        <a class = "formLink" id = "linkLogin">
+          Already have an account? Sign in
+        </a>
+      </p>
+    </form>
+  </div> 
+  <div class = "total">
+  <video class = "registrationBack" src="video_registration.mp4" autoplay muted></video>
+  </div>
+  <script src = "https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src = "js/registration.js"></script>
+</body>
+</html>

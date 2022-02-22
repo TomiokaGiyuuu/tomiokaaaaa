@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--Stylesheets-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel = "stylesheet" href = "css/study.css">
+
+        <!--FontAwesome-->
+        <script src="https://kit.fontawesome.com/b99209a1e5.js" crossorigin="anonymous"></script>
+        <title>
+            Animeable
+        </title>
+
+        <!--Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700&family=Palanquin+Dark:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+        <!--FavIcon-->
+        <link rel="shortcut icon" type="image/svg" href="img/logo.svg"/>
+    </head>
+    <body class = "characterBackground">
+        
+
+        <!--Preloader-->
+        <div class="preloader-fixer">
+            <div class="preloader">
+                <div class="part1">
+                    <video src = "preloaderPart1.mp4" autoplay muted></video>
+                </div>
+                <div class="part2">
+                    <video src = "preloaderPart2.mp4" autoplay muted></video>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--Navbar-->
+        <header>
+            <nav class="navbar navbar-expand-lg backgr-black">
+                <div class="container container-fluid nav-font-white">
+                  <a href="index.html"><img src = "img/logo.svg"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <img src = "img/menu.svg">
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a id = "top" class="nav-link" href="index.html">Home</a>
+                      <a class="nav-link" href="mostPopular.html">Most Popular</a>
+                      <a id = "top" class="nav-link" href="#bottom">Info</a>
+                      <a class="nav-link" href="characters.html">Characters</a>
+                      <a class="nav-link" href="game.html">Games</a>
+                    </div>
+                    <div id="login">
+                        <a href = "registration.html"><div onmouseover="this.style.color = 'white'" onmouseout="this.style.color = ''">Login</div></a>
+                    </div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Menu
+                          </a>
+                          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                            <li><a class="dropdown-item" href="aboutAnimeNaruto.html">Trending</a></li>
+                            <li><a class="dropdown-item" href="aboutAnimeTokyoRevengers.html">The best Anime of 2021</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>   
+
+        <!--Main Page-->
+        <div class="twoSliders">
+            <!--Character Info-->
+            <div class="container" style = "min-height: 0;">
+                <div class="sliderbig">
+                    <div class="sliderbig_item">
+                        <div class="sliderbig__text">
+                            <br>
+                            <h2>Tanjiro</h2>
+                            <div class="character__cv">
+                                <div class="character__cv__name">
+                                    CV: Natsuki Hanae
+                                </div>
+                                <div class="character__voice "></div>
+                            </div>
+                            <div class="character__intro">
+                                A kindhearted boy. He lived a blissful life with his mother and siblings, but his family was attacked by a demon while he was away from home.He joins the Demon Slayer Corps in order to turn his sister Nezuko, who has become a demon, back into a human, as well as to avenge the death of his family by hunting down the demon who killed them. Under the tutelage of Sakonji Urokodaki, Tanjiro learns to wield Water Breathing techniques in his fight against the demon threat.
+                            </div>
+                        </div>
+                        <div class="sliderbig_img">
+                            <img src="img/tanjiroCharacter.png" alt="">
+                        </div>
+                    </div>
+                    <div class="sliderbig_item">
+                        <div class="sliderbig__text">
+                            <br>
+                            <h2>Zenitsu</h2>
+                            <div class="character__cv">
+                                <div class="character__cv__name">
+                                    CV: Hiro Shimono
+                                </div>
+                                <div class="character__voice "></div>
+                            </div>
+                            <div class="character__intro">
+                                He joins the Demon Slayer Corps at the same time as Tanjiro and Inosuke. He has an acute sense of hearing and can identify the sounds made by other people or demons.In battle, when he is scared to death, he falls asleep and his personality changes to the swordsman that can unleash Thunder Breathing.
+                            </div>
+                        </div>
+                        <div class="sliderbig_img">
+                            <img src="img/zenitsuCharacter.PNG" alt="">
+                        </div>
+                    </div>
+                    <div class="sliderbig_item">
+                        <div class="sliderbig__text">
+                            <br>
+                            <h2>Inosuke</h2>
+                            <div class="character__cv">
+                                <div class="character__cv__name">
+                                    CV: Yoshitsugu
+                                </div>
+                                <div class="character__voice "></div>
+                            </div>
+                            <div class="character__intro">
+                                He joins the Demon Slayer Corps at the same time as Tanjiro and Zenitsu.He is extremely aggressive, always seen wearing a wild boar mask, and uses his Beast Breathing to rush headlong into battle.
+                            </div>
+                        </div>
+                        <div class="sliderbig_img">
+                            <img src="img/inosukeCharacter.png" alt="">
+                        
+                        </div>
+                    </div>
+                    <div class="sliderbig_item">
+                        <div class="sliderbig__text">
+                            <br>
+                            <h2>Nezuko</h2>
+                            <div class="character__cv">
+                                <div class="character__cv__name">
+                                    CV: Abby Trott
+                                </div>
+                                <div class="character__voice "></div>
+                            </div>
+                            <div class="character__intro">
+                                Tanjiro's younger sister, who has been turned into a demon.Though a demon, she never attacks humans, thanks to both Urokodaki's hypnotic suggestion and the strength of her own will. She joins Tanjiro in his fight against the demons using her own demonic powers.
+                            </div>
+                        </div>
+                        <div class="sliderbig_img">
+                            <img src="img/nezukoCharacter.png" alt="">
+                        </div>                    </div>
+                    <div class="sliderbig_item">
+                        <div class="sliderbig__text">
+                            <br>
+                            <h2>Tomioka</h2>
+                            <div class="character__cv">
+                                <div class="character__cv__name">
+                                    CV: Takahiro Sakurai
+                                </div>
+                                <div class="character__voice "></div>
+                            </div>
+                            <div class="character__intro">
+                                
+                                Giyu is a tall young man of a muscular stature and pale complexion, who is almost always seen wearing a serious and emotionless expression. He has unruly black hair of uneven lengths that sticks up in tufts around his head, which he wears tied back in a low messy ponytail at the base of his neck. His bangs fall over his eyes in an uneven fringe. His eyes are sharp and moderately large, their irises a deep sapphire that fades to a lighter blue and their pupils a bluish-black, and are framed by thin eyebrows.
+                            </div>
+                        </div>
+                        <div class="sliderbig_img">
+                            <img src="img/tomiokaCharacter.png" alt="">
+                        </div>
+                    </div>
+                    <div class="sliderbig_item">
+                        <div class="sliderbig__text">
+                            <br>
+                            <h2>Shinobu</h2>
+                            <div class="character__cv">
+                                <div class="character__cv__name">
+                                    CV: Saori Hayami
+                                </div>
+                                <div class="character__voice "></div>
+                            </div>
+                            <div class="character__intro">
+                                Known as Miss Kimetsu, the most popular girl in the Academy. She's a member of both the Pharmaceutical Research Club and the Fencing Club.
+                            </div>
+                        </div>
+                        <div class="sliderbig_img">
+                            <img src="img/shinobyCharacter.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>  
+            
+
+            <!--Carousel-->
+            <div class="slider-wrapper">
+                <div class="slider-bg">
+                    <div class="slider">
+                        <div class="slider_item">
+                            <img src = "img/tanjiroChibi.png">
+                        </div>
+                        <div class="slider_item">
+                            <img src = "img/zenitsuChibi.png">
+                        </div>
+                        <div class="slider_item">
+                            <img src = "img/inosukeChibi.png">
+                        </div>
+                        <div class="slider_item">
+                            <img src = "img/nezukoChibi.png">
+                        </div>
+                        <div class="slider_item">
+                            <img src = "img/tomiokaChibi.png">
+                        </div>    
+                        <div class="slider_item">
+                            <img src = "img/shinobuChibi.png">
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Info-->
+        <div class = "completedAnime">
+            <div class = "container">
+                <h2 class = "mt"><i class="fas fa-pencil-alt"></i> Animeable authors <i class="fas fa-pencil-alt"></i></h2>
+            </div>
+          </div>
+          <footer>
+              <div id = "bottom" class="container">
+                  <div class="aboutAuthors">
+                      <div class="aboutAuthor__item">
+                            <h2></h2>
+                            <p></p>
+                      </div>
+                      <div class="aboutAuthor__item">
+                            <h2></h2>
+                            <p></p>
+                      </div>
+                      <div class="aboutAuthor__item">
+                            <h2></h2>
+                            <p></p>
+                      </div>
+                      <div class="aboutAuthor__item">
+                            <h2></h2>
+                            <p></p>
+                      </div>    
+                </div>
+            <script src="https://yastatic.net/share2/share.js"></script>
+            <div class="shareCenter container ya-share2" data-curtain data-size="l" data-shape="round" data-services="vkontakte,facebook,odnoklassniki,telegram,twitter,whatsapp,pinterest"></div>
+            </div>
+            </div>
+          </footer>
+
+
+        <!--Bootstrap-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <!--Jquery-->
+        <script src = "https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <!--Slick(slider)-->
+        <script src = "js/slick.min.js"></script>
+        <!--Scripts-->
+        <script src = "js/script.js"></script>
+    </body>
+</html>
+ 
