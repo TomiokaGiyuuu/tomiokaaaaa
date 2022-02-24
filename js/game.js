@@ -66,8 +66,10 @@ function handleClick(e){
         endGame(false, GAME.winEl, GAME.drawEl);
         GAME.winnerImg.append(GAME.winner);
         $(document).ready(function(){
+          $("button").click(function(){
             $(GAME.winnerImg).fadeIn(3000);
         });
+});
         console.log("victoryaaa");
     }else if(isDraw(flag)){
        endGame(true, GAME.winEl, GAME.drawEl);
