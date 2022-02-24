@@ -10,6 +10,12 @@ GAME.drawBtn.addEventListener("click", startGame);
 Profile()
 
 
+$(document).ready(function(){
+  $("button").click(function(){
+    $("img").fadeOut(3000);
+  });
+});
+
 function startGame(){
     setHoverEffect();
 
