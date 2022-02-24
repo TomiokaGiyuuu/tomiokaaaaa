@@ -38,7 +38,7 @@ function handleClick(e){
     
     let flag = checkWin(currentClass, GAME.blockElements).filter((win, index) => {
        if (win){
-        
+        console.log("victory");
          
         WIN_COMBINATIONS[index].map(i => {
             GAME.blockElements[i].classList.add('win');
