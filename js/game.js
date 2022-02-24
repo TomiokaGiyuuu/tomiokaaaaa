@@ -54,7 +54,7 @@ function handleClick(e){
     if (flag.length){
         endGame(false, GAME.winEl, GAME.drawEl);
         GAME.winnerImg.append(GAME.winner);
-        $('winnerImg').animate({
+        $(winnerImg).animate({
             width: 200,
             height: 150,
             top: 0,
