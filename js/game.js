@@ -61,7 +61,7 @@ function handleClick(e){
             marginTop: '75px', // heigth / 2
             marginLeft: '100px' // width / 2
         });
-        console.log("victory");
+        console.log("victoryaaa");
     }else if(isDraw(flag)){
        endGame(true, GAME.winEl, GAME.drawEl);
     }
