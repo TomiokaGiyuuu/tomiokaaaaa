@@ -54,6 +54,13 @@ function handleClick(e){
     if (flag.length){
         endGame(false, GAME.winEl, GAME.drawEl);
         GAME.winnerImg.append(GAME.winner);
+        $('winnerImg').animate({
+            width: 200,
+            height: 150,
+            top: 0,
+            marginTop: '75px', // heigth / 2
+            marginLeft: '100px' // width / 2
+        });
         console.log("victory");
     }else if(isDraw(flag)){
        endGame(true, GAME.winEl, GAME.drawEl);
