@@ -9,7 +9,7 @@ GAME.drawBtn.addEventListener("click", startGame);
 
 $(document).ready(function(){
             $("button").click(function(){
-                $("#img").fadeIn("slow");
+                $('img').fadeIn("slow");
             });
         });
 
