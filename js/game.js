@@ -7,14 +7,7 @@ GAME.startBtn.addEventListener("click", startGame);
 GAME.restartBtn.addEventListener("click", startGame);
 GAME.drawBtn.addEventListener("click", startGame);
 
-$(document).ready(function(){
-            $("button").click(function(){
-                $('img').fadeIn("slow");
-            });
-        });
-
 Profile()
-
 
 
 function startGame(){
@@ -60,6 +53,9 @@ function handleClick(e){
     if (flag.length){
         endGame(false, GAME.winEl, GAME.drawEl);
         GAME.winnerImg.append(GAME.winner);
+        $(document).ready(function(){
+            $(GAME.winnerImg).fadeIn(3000);
+        });
         console.log("victoryaaa");
     }else if(isDraw(flag)){
        endGame(true, GAME.winEl, GAME.drawEl);
